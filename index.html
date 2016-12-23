@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Classic Arcade Game</title>
+    <link rel="stylesheet" href="css/style.css">
+	<script src="js/jQuery.js"></script>
+</head>
+<body>
+	<div id="main">
+	<header class="title-name">
+		<h1>Classic Arcade Game</h1>
+	</header>
+	<div id="content">
+		<h2> &#128120; Princess Ema's Story:</h2>
+		<p> Meet the cute little princess, Ema. Unfortunately, Ema's parents have been cursed by a cruel <strong>witch</strong>. In order to break the curse and kill the witch, the princess have to collect 1 litre water from the <strong>Divine Lake. </strong>That Divine Lake is situated in the witch's kingdom which is surrounded by enemy gurads- <strong>The Bugs.</strong>The Bugs move in varying speeds. <br>
+		<h3>Game Rules :</h3>
+		<ul>
+		<li>The princess can move left, right, up and down with the help of arrow-keys.</li>
+		<li>Each time when she reaches the lake, she can collect 100ml of water.</li>
+		<li>On colliding with Bug, she will loose 50ml of her collected water and have to start from the beginning.</li>
+		<li>Ema gets only <strong> three</strong> chances to fight with the bugs. She will be imprisioned after the third trial and cannot continue the mission.</li>  
+		</ul>
+		<br>Help Ema to collect divine water by avoiding the <strong> Bugs.</strong>
+		<br><strong>GOOD LUCK!! </strong>&#128077;</p>
+
+		<div id="modal-game" class="display-hide">
+			<div class="container-modal">
+				<div class="modal_content">
+					<div class="modal_msg">
+					<div id="greeting_msg"></div>
+					<div id="score_points_modal" class="score"></div>
+					</div>
+					<span class="logo">&#128120;</span><br>
+					<button id="buttonOK" class="my-button">Play Again!</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="game_content">
+		<div id="game_score">
+			<div id="score">Score : <span id="score_points"></span></div>
+			<div id="life">&#128150; :<span id="life_left"></span></div>
+		</div>
+	</div>
+	</div>
+<script src="js/resources.js"></script>
+<script src="js/app.js"></script>
+<script src="js/engine.js"></script>
+</body>
+</html>
