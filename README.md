@@ -27,3 +27,5 @@ Collect 1000ml of divine water.
 
 
 ![Classic Arcade Game Clone](images/game_screentshot.png)
+
+To Play Online : visit [https://kinjalparmar.github.io/Classic_Arcade_Game/](https://kinjalparmar.github.io/Classic_Arcade_Game/)
